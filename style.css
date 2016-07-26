@@ -1,0 +1,194 @@
+
+/*normalize all things in css*/
+
+/*  normalize margin padding  */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote,
+th, td{margin: 0; padding:0;}
+/*  normalizes font-size for headers  */
+h1, h2, h3, h4, h5, h6
+{font-size: 100%;}
+/*  Removes list-style from lists  */
+ol, ul
+{ list-style:none;}
+/*  Normalizes font-style and font-weight to normal  */
+address, caption, cite, code, dfn, em, strong, th, var
+{font-style:normal; font-weight: normal;}
+/* Removes list-style from lists  */
+table
+{border-collapse:collapse; border-spacing:0;}
+/*  Remove border from fieldset and img  */
+fieldset, img
+{border: 0;}
+/*  Left-aligntext in caption and th  */
+caption, th
+{text-align: left;}
+/*  Removes quotation marks from q  */
+q:before, q:after
+{ content:''; }
+
+
+#img ,img{
+    max-width: 500px;
+}
+
+
+
+
+
+/*body*/
+/*{*/
+  /*background-color: #D3D3D3;*/
+  /*background-size:cover;*/
+  /*font-family: "幼圆";*/
+  /*margin:0;*/
+            /*padding:0;*/
+/*height: 100%;*/
+/*}*/
+/*.title*/
+/*{*/
+
+  /*font-size: 50px;*/
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
+  /*width:100%;*/
+  /*height: 59px;*/
+  /*color: #ffffff;*/
+  /*background-color: #666666;*/
+
+/*}*/
+/*a:link {*/
+/*color:#FF0000;*/
+/*text-decoration:underline;*/
+/*}*/
+/*a:visited {*/
+/*color:#00FF00;*/
+/*text-decoration:none;*/
+/*}*/
+/*a:hover {*/
+/*color:#000000;*/
+/*text-decoration:none;*/
+/*}*/
+/*a:active {*/
+/*color:#FFFFFF;*/
+/*text-decoration:none;*/
+/*}*/
+/*.class1*/
+/*{*/
+  /*text-align: right;*/
+  /*color: #ffffff;*/
+  /*background-color: #666666;*/
+/*}*/
+/*.nav*/
+/*{*/
+  /*width:20%;*/
+  /*background-color: #6495ed;*/
+  /*float: left;*/
+  /*color: #ffffff;*/
+/*}*/
+/*.nav h4*/
+/*{*/
+  /*vertical-align: middle;*/
+  /*text-align: center;*/
+/*}*/
+/*.main*/
+/*{*/
+    /*width:80%;*/
+    /*float: right;*/
+    /*color: #000000;*/
+    /*background-color: #ffffff;*/
+    /*min-height: 80%;*/
+/*}*/
+/*.main .main_right*/
+/*{*/
+
+    /*width:60%;*/
+    /*float: left;*/
+    /*background-color: #aaaaaa;*/
+/*}*/
+/*.main .main_left*/
+/*{*/
+
+    /*width:40%;*/
+    /*float: right;*/
+    /*background-color: #cccccc;*/
+/*}*/
+/*.footer*/
+/*{*/
+  /*height:10px;*/
+  /*clear: both;*/
+  /*padding:30px 0;*/
+  /*text-align:center;*/
+  /*width: 100%;*/
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*下面的是一个添加留言的css*/
+.basic-grey {
+margin-left:auto;
+margin-right:auto;
+max-width: 77%;
+background: #F7F7F7;
+padding: 25px 15px 25px 10px;
+font: 12px Georgia, "Times New Roman", Times, serif;
+color: #888;
+text-shadow: 1px 1px 1px #FFF;
+border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+font-size: 25px;
+padding: 0px 0px 10px 40px;
+display: block;
+border-bottom:1px solid #E4E4E4;
+margin: -10px -15px 30px -10px;;
+color: #888;
+}
+.basic-grey h1>span {
+display: block;
+font-size: 11px;
+}
+.basic-grey label {
+display: block;
+margin: 0px;
+}
+.basic-grey label>span {
+float: left;
+width: 20%;
+text-align: right;
+padding-right: 10px;
+margin-top: 10px;
+color: #888;
+}
+.basic-grey input[type="text"],.basic-grey input[type="password"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+border: 1px solid #DADADA;
+color: #888;
+height: 30px;
+margin-bottom: 16px;
+margin-right: 6px;
+margin-top: 2px;
+outline: 0 none;
+padding: 3px 3px 3px 5px;
+width: 70%;
+font-size: 12px;
+line-height:15px;
+box-shadow: inset 0px 1px 4px #ECECEC;
+-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+padding: 5px 3px 3px 5px;
+height:200px;
+}
+.basic-grey .button {
+background: #E27575;
+    border: none;
+padding: 10px 25px 10px 25px;
+color: #FFF;
+box-shadow: 1px 1px 5px #B6B6B6;
+border-radius: 3px;
+text-shadow: 1px 1px 1px #9E3F3F;
+cursor: pointer;
+}
+.basic-grey .button:hover {
+background: #CF7A7A
+}
+/*上面的是一个添加留言的css*/

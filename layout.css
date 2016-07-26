@@ -1,0 +1,68 @@
+
+html{
+    text-align: center;
+    background-color: #7a9698;
+}
+body{
+    background-color: #fff;
+    width:75%;
+    margin:0 auto;
+    text-align: left;
+}
+div#content
+{
+    width:100%;
+}
+div#nav{
+    left:0;
+    width:20%;
+    padding:1em 0 0 0;
+}
+div#main{
+    left:21%;
+    width:69%;
+    padding:1em 0 0 0;
+}
+div#class1{
+    background-color: #d3d3d3;
+}
+div#branding{
+    padding-top: 20px;
+    height:80px;
+    background: transparent url(images/branding.png) no-repeat 0 0;
+}
+#nav_main{
+    size:1000px;
+    width:1px;
+    display: block;
+    position: absolute;
+    left:20%;
+    color: #000;
+
+}
+div#footer{
+    position:relative;
+    width: 100%;
+    height: 80px;
+}
+div .main_left{
+    position: relative;;
+    left:0;
+    width:60%;
+}
+div .main_right{
+    position: relative;
+    left:60%;
+    width:40%;
+}
+
+
+
+
+
+
+
+/* =si_clear_children*/
+.pc,.sc { position: absolute; top: 0; left: 0;}
+.clear_children,.cc_tallest { position: relative; } /**/* html .clear_children { display: inline;}/* PREVENTS MISSING CHILDREN IN IE WIN 5.0 */
+.cc_tallest:after { content: ''; } /* PREVENTS A REDRAW BUG IN SAFARI */

@@ -1,0 +1,40 @@
+body{
+    font:85%/1.5 "Arial","Microsoft YaHei UI Light","黑体","宋体","sans-serif";
+}
+h1,h2,h3,h4,p,ul{
+    margin: 0 20px .75em;
+}
+div#footer{
+    padding-top: 30px;
+    text-align: center;
+}
+h1{
+    margin-bottom: .15em;
+    font: 200% "Arial","Microsoft YaHei UI Light","黑体","宋体","sans-serif";
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+h2{
+    margin-bottom: .15em;
+    font: 150% "Arial","Microsoft YaHei UI Light","黑体","宋体","sans-serif";
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+li>h4{
+    margin-left: 0;
+}
+p{
+    font-size: 100%;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+
+a:link,a:visited{
+    color: #f90;
+}
+ pre.one{
+    word-break: break-all;
+}
